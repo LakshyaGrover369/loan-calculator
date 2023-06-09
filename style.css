@@ -1,0 +1,36 @@
+body{
+    background-image: url('imgnumber1.webp');
+    height: 95vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.values{
+    margin: auto;
+}
+
+.input{
+    padding: 3px;
+}
+
+.btn{
+    margin: auto;
+}
+
+#result{
+    margin: auto;
+    font-size: x-large;
+    color: grey;
+}

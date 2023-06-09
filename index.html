@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loan calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading">LOAN CALCULATOR</h1>
+        <div class="values" id="value1" >PRINCIPAL = <input type="text" placeholder="amount in Rs( &#60; 100000000 Rs)" type="number" min="0" max="100000" class="input" id="principal"></div>
+        <div class="values" id="value2" >TIME = <input type="text"  placeholder="time in years( &#60; 10 yr.)"  type="number" min="0" max="10" class="input"  id="time"></div>
+        <div class="values" id="value3" >RATE = <input type="text"  placeholder="rate in percentage( &#60; 100%)"  type="number" min="0" max="100" class="input" id="rate"></div>
+        <button class="btn" onclick="calculateLoan()">calculate</button>
+        <div id="result">simple interest is ......</div>
+    </div>
+
+    </body>
+    <script src="index.js"></script>
+</html>
